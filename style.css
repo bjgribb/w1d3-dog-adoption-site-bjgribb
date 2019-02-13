@@ -5,7 +5,20 @@
 }
 
 header {
+    border-bottom: solid #93DDEF; 
     color: #FFFFFF;
     background-color: #0D3E75;
-    padding-left: 2rem;
+    padding: 2rem;
+
+}
+
+.top-section{
+    margin: 2rem;
+    line-height: 2rem;
+}
+
+.dog-traits{
+    margin: 2rem;
+    background-color: #F0EDEE;
+    padding: 1rem;
 }
