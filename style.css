@@ -74,39 +74,55 @@ a:hover{
     padding: 0.25rem;
 }
 
-footer{
-    display: flex;
-    color: #FFFFFF;
-    background-color: rebeccapurple;
-}
-
-footer div{
+/* footer div{
     width: 33.333333%;
     height: 250px;
     text-align: center;
-}
+} */
 /* .footer-div {
     justify-content: space-between;
 } */
 
+/* Images aren't resizing when browswer window shrinks */
+
+/* .footer-div-titles h2{
+    position:relative;
+    top:-250px;
+    line-height:250px;
+    width:350px;
+    font-family: "Oswald";
+    color:#FFFFFF;
+    font-size:40px;
+    text-align: center;
+    vertical-align: middle;
+    margin:0;
+} */
+
+footer{
+    display: flex;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    color: white;
+}
+
 .donate{
-    background: url(starter_files/images/donate.jpg);
-    opacity: 0.5;
-    color: #FFFFFF;
-    background-size: cover;
-    align-items: center;
+    background: linear-gradient (rgba(30, 9, 110, 0.5) rgba(30, 9, 110, 0.5)), center/contain url('starter_files/images/donate.jpg');
+    background-size: contain;
+    width: 33.33333%;
 }
 
 .volunteer{
     background: url(starter_files/images/volunteer.jpg);
-    opacity: 0.5;
-    color: #FFFFFF;
-    background-size: cover;
+    background-size: contain;
+    width: 33.33333%;
 }
 
 .location{
-    background: url(starter_files/images/location.png);
-    opacity: 0.5;
-    color: #FFFFFF;
-    background-size: cover;
+    background-image: url(starter_files/images/location.png);
+    background-size: contain;
+    width: 33.33333%;
 }
+
+
+
