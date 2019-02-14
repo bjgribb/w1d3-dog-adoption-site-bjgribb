@@ -107,20 +107,22 @@ footer{
 }
 
 .donate{
-    background: linear-gradient (rgba(30, 9, 110, 0.5) rgba(30, 9, 110, 0.5)), center/contain url('starter_files/images/donate.jpg');
-    background-size: contain;
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), 
+            no-repeat center/cover url('starter_files/images/donate.jpg');
+    /* background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)),
+            no-repeat center/cover url('starter_files/images/donate.jpg'); */
     width: 33.33333%;
 }
 
 .volunteer{
-    background: url(starter_files/images/volunteer.jpg);
-    background-size: contain;
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), 
+            no-repeat center/cover url('starter_files/images/volunteer.jpg');
     width: 33.33333%;
 }
 
 .location{
-    background-image: url(starter_files/images/location.png);
-    background-size: contain;
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), 
+            no-repeat center/cover url('starter_files/images/location.png');
     width: 33.33333%;
 }
 
