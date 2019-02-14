@@ -73,3 +73,40 @@ a:hover{
     background-color: #93DDEF;
     padding: 0.25rem;
 }
+
+footer{
+    display: flex;
+    color: #FFFFFF;
+    background-color: rebeccapurple;
+}
+
+footer div{
+    width: 33.333333%;
+    height: 250px;
+    text-align: center;
+}
+/* .footer-div {
+    justify-content: space-between;
+} */
+
+.donate{
+    background: url(starter_files/images/donate.jpg);
+    opacity: 0.5;
+    color: #FFFFFF;
+    background-size: cover;
+    align-items: center;
+}
+
+.volunteer{
+    background: url(starter_files/images/volunteer.jpg);
+    opacity: 0.5;
+    color: #FFFFFF;
+    background-size: cover;
+}
+
+.location{
+    background: url(starter_files/images/location.png);
+    opacity: 0.5;
+    color: #FFFFFF;
+    background-size: cover;
+}
